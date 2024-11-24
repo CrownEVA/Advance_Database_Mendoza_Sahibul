@@ -1,0 +1,280 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background: url(../image/pwdd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    width: 100%;
+    height: 70px;
+    background: white;
+    
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .4rem .8rem #0005;
+    display: flex;
+
+    overflow: hidden;
+}
+.square1{
+    padding-left: 20px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.square2{
+    height: 70px;
+
+    display: flex;
+
+    text-align: center;
+    align-items: center;
+}
+.square3{
+    padding-right: 20px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Logo a{
+    text-decoration: none;
+   font-size: 50px;
+   color: rgb(0, 0, 0);
+}
+
+.ID{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.ID:hover{
+    background-color: black;
+    color: white;
+}
+.ID img{
+    width: 20px;
+    height: 20px;
+}
+.spacebetween{
+    display: flex;
+    justify-content: space-around;
+
+}
+.booklet{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.booklet:hover{
+    background-color: black;
+    color: white;
+}
+.prescription{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.prescription:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.Account{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Account:hover{
+    background-color: black;
+    color: white;
+}
+.Us{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Us:hover{
+    background-color: black;
+    color: white;
+}
+.Logout{
+    padding: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.Logout:hover{
+    background-color: black;
+    color: white;
+}
+.b {
+    
+    width: 100%;
+    height: 100vh;
+
+    box-shadow: 0 .4rem .8rem #0005;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1{
+    min-width: 450px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .4rem .8rem #0005;
+
+    margin: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: width 0.5s, height 0.5s;
+}
+.box1:hover{
+    width: 500px;
+    height: 310px;
+}
+.box1 img {
+    transition: width 0.5s, height 0.4s; 
+}
+.box1 p {
+    transition: font-size 0.5s;
+}
+.box1:hover .seal{
+    width: 65px;
+    height: 65px;
+}
+.box1:hover .pwd{
+    width: 70px;
+    height: 70px;
+}
+.box1:hover .picc{
+    width: 160px ;
+    height: 160px ;
+}
+.box1:hover p {
+    font-size: 12px;
+}
+.box1:hover .big{
+    font-size: 30px;
+}
+p{
+    margin: 0%;
+    font-size: 10px;
+}
+.part1{
+    display: flex;
+    justify-content: center;
+}
+.saloob{
+    display: table-row;
+    text-align: center;
+}
+.part2{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 10px;
+}
+.big{
+    font-size: 30px;
+}
+.small{
+    font-size: 10px;
+}
+.pic{
+    padding: 15px;
+    margin-right: auto;
+}
+.info{
+    padding: 10px;
+    
+}
+.picc{
+    height: 150px;
+    width: 150px;
+}
+.top{
+    padding-top: 15px;
+}
+.seal{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    top: 15px ;
+    left: 17px;
+}
+.pwd{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+}
+
+.box2{
+    min-width: 450px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 .4rem .8rem #0005;
+    
+    border-radius: 20px;
+    z-index: 1;
+    transition: width 0.5s, height 0.5s;
+    overflow: hidden;
+}
+.box2:hover{
+    width: 500px;
+    height: 310px;
+}
+.box2:hover p{
+    font-size: 11px;
+}
+.box2 p {
+    transition: font-size 0.5s;
+}
+.center{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center2{
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.center2 p{
+    font-size: 10px;
+    padding: 5px;
+}
+.transparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 970px;
+    height: 350px;
+    background-color: rgb(141, 139, 139);
+    opacity: 0.8;
+}
+
